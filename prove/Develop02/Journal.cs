@@ -23,7 +23,7 @@ public class Journal
 
     public void CreateJournalFile()
     {
-        Console.Write("What your file name? ");
+        Console.Write("What your file name? ");     
         string userInput = Console.ReadLine();
         _userFileName = userInput + ".txt";
 
